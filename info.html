@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>FOUR PAGE</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript"> 
+            function show_confirm() 
+            { 
+            var r=confirm("You have submitted the details"); 
+            if (r==true) 
+            { 
+            alert("Submitted successfully!"); 
+            } 
+            else 
+            { 
+            alert("Not submitted!"); 
+            } 
+            } 
+            </script>
+    </head>
+    <body>
+        <table border="1" style="margin-left: auto; margin-right: auto;">
+            <caption><b>CAR DEALERSHIP SHOP</b></caption>
+            <tr style="text-align: center; background-color: cornsilk;">
+                    <td>
+                        <img src="carlogo.jpg" alt="Carlogo" height="auto" width="auto">
+                    </td>
+                    <td>
+                        <a href="home.html">Home</a>
+                    </td>
+                    <td>
+                        <a href="about.html">About</a>
+                    </td>
+                    <td>
+                        <a href="info.html">Info</a>
+                    </td>
+                    <td>
+                        <a href="contactus.html">ContactUs</a>
+                    </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <h1>Customer Purchase Form</h1>
+                    <b>Required to fill in after purchase</b>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <form>
+                        <fieldset>
+                            First Name:
+                            <input type="text" name="name">
+                            Last Name:
+                            <input type="text" name="name"><br><br>
+                            Address:
+                            <input type="text" name="address"><br><br>
+                            City:
+                            <input type="text" name="city">
+                            Town:
+                            <input type="text" name="town"><br><br>
+                            Date of Birth:
+                            <input type="date" name="date"><br><br>
+                            Phone Number:
+                            <input type="text" name="telephone"><br><br>
+                            Driving Licence Number:
+                            <input type="text" name="number">
+                        </fieldset>
+                    </form>
+                    <center>
+                        <input type="submit" onclick="show_confirm()" value="SUBMIT">
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <h2>Vehicle Purchased</h2>
+                    <form>
+                        <fieldset>
+                            Model:
+                            <input type="text" name="model"><br><br>
+                            Year:
+                            <input type="date" name="date"><br><br>
+                            Color:
+                            <input type="color" name="color"><br><br>
+                            Engine Number:
+                            <input type="text" name="engine"><br><br>
+                            Body Size:
+                            <input type="text" name="body"><br><br>
+                            Weight:
+                            <input type="text" name="weight"><br><br>
+                            KM Reading
+                            <input type="text" name="KM"><br><br>
+                        </fieldset>
+                    </form>
+                    <center>
+                        <input type="submit" onclick="show_confirm()" value="SUBMIT">
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <center>
+                        COPYRIGHT @VISCOUNT @BBIT/MG/1320/09/19
+                    </center>
+                </td>
+            </tr>
+        </table> 
+    </body>       
+</html>
